@@ -10,6 +10,12 @@ Here you can find the source code for the library.
   * [ADAL for iOS](https://github.com/AzureAD/azure-activedirectory-library-for-objc),
   * [ADAL for .NET](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet).
 
+## NOTICE: iOS 13 and Azure Authentication
+
+In iOS 13, Apple made a [breaking API change](https://github.com/AzureAD/azure-activedirectory-library-for-objc/wiki/ADAL-iOS-13-support). This was fixed in the ADAL ObjC library as of 2.7.14.
+
+**When using the latest ADAL SDKs, you need to ensure that you have the latest Authenticator app installed. Authenticator app with a version 6.3.19 or later is supported.** 
+
 ## NOTICE: iOS 10 and Azure Authentication
 
 **If you're using plugin version < 0.8.x on iOS platform, we strongly recommend you to update your application to use newest version of the plugin in order to support authentication on iOS 10, otherwise your users will not be able to sign-in once iOS 10 is released.**
