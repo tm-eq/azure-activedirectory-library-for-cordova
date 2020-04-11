@@ -82,7 +82,7 @@
         <header-file src="src/ios/CordovaAdalUtils.h" />
         <source-file src="src/ios/CordovaAdalUtils.m" />
 
-        <framework src="src/ios/ADAL.framework" custom="true" embed="true" />
+        <framework src="src/ios/ADAL.framework" custom="true" />
 
         <resource-file src="src/ios/ADALiOS.entitlements" />
         <hook type="after_plugin_install" src="scripts/configureEntitlementsIos.js" />
